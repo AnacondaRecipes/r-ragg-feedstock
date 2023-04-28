@@ -73,6 +73,8 @@ about:
     - LICENSE
 
 extra:
+  only-lint:
+    - missing_source
   anaconda-services:
     ref:  https://anaconda.zendesk.com/agent/tickets/35116
     reason: "needed for r-devtools"
