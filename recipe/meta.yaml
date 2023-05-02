@@ -55,6 +55,7 @@ requirements:
   run:
     - r-base {{ r_version }}
     - {{ native }}gcc-libs         # [win]
+    - {{ native }}gcc-libs-core    # [win]
     - r-systemfonts >=1.0.0
     - r-textshaping >=0.3.0
 
